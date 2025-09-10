@@ -25,7 +25,9 @@ For an $n$-bit input $x \in \{0,1\}^{n}$, $g(x) = x \oplus 0^{n-2}10$, where $(0
     \item \textbf{Noise configurations} (depolarizing models):
     \begin{itemize}[leftmargin=*]
         \item \textbf{No-noise}: Ideal (zero errors);
+        
         \item \textbf{Low-noise}: State-of-the-art hardware: single-qubit 0.01\%, two-qubit 0.1\%;
+        
         \item \textbf{Medium-noise}: Laboratory-grade hardware: single-qubit 0.1\%, two-qubit 1.0\%.
     \end{itemize}
     \item 5,000 independent shots were performed using Qiskit 0.43.3 (for quantum simulations) and Python 3.7.13 (for classical benchmarks);
