@@ -7,7 +7,7 @@ For an $n$-bit input $x \in \{0,1\}^{n}$, $g(x) = x \oplus 0^{n-2}10$, where $(0
 \begin{itemize}[leftmargin=*]
     \item If $i = i_0$ (unique target index): $f(i,y) = 0^{n-2}01$ (constant)
     \item If $i \neq i_0$: $f(i,y) = i_{\text{trunc}} \oplus y$, where $i_{\text{trunc}} = i \mod 2^{n}$.
-    
+   \end{itemize}
     We present key results comparing \cref{alg:Simulator} with classical brute-force search across three noise configurations.
     
     Experimental Setup
